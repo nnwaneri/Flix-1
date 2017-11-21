@@ -21,13 +21,8 @@ The following **required** user stories are complete:
 Here's a walkthrough of implemented user stories:
 
 
-<img src="https://i.imgur.com/0Bcmffw.gifv" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="https://firebasestorage.googleapis.com/v0/b/datasto-61f2f.appspot.com/o/FlixGif.gif?alt=media&token=bca50121-2e68-47c2-9267-42df5288d095" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
-## Notes
-
-Describe any challenges encountered while building the app.
 
 ## License
 
