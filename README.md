@@ -21,7 +21,7 @@ The following **required** user stories are complete:
 Here's a walkthrough of implemented user stories:
 
 
-<img src='https://imgur.com/0Bcmffw"><img src="https://i.imgur.com/0Bcmffw.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="https://i.imgur.com/0Bcmffw.gifv" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -31,7 +31,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [Harold Lomotey]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
