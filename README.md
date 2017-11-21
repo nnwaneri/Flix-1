@@ -21,7 +21,7 @@ The following **required** user stories are complete:
 Here's a walkthrough of implemented user stories:
 
 
-<img src="https://firebasestorage.googleapis.com/v0/b/datasto-61f2f.appspot.com/o/FlixGif.gif?alt=media&token=bca50121-2e68-47c2-9267-42df5288d095" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="https://firebasestorage.googleapis.com/v0/b/datasto-61f2f.appspot.com/o/FlixGif.gif?alt=media&token=57616083-0a50-43cc-a265-cb1ff579d6db" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## License
