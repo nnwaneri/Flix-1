@@ -75,6 +75,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        
         let movie = movies[indexPath.row]
         let title = movie["title"] as! String
         let overview = movie["overview"] as! String
