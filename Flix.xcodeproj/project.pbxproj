@@ -18,6 +18,7 @@
 		F2D506501FC3501C00A95F73 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5064F1FC3501C00A95F73 /* FlixUITests.swift */; };
 		F2D5065E1FC37CFB00A95F73 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5065D1FC37CFB00A95F73 /* NowPlayingViewController.swift */; };
 		F2D506601FC3972E00A95F73 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5065F1FC3972E00A95F73 /* MovieCell.swift */; };
+		F2F2FDC71FC7E2D000B6DBB9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F2FDC61FC7E2D000B6DBB9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		F2D506511FC3501C00A95F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2D5065D1FC37CFB00A95F73 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 		F2D5065F1FC3972E00A95F73 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		F2F2FDC61FC7E2D000B6DBB9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				F2D5062F1FC3501B00A95F73 /* AppDelegate.swift */,
+				F2F2FDC61FC7E2D000B6DBB9 /* DetailViewController.swift */,
 				F2D506331FC3501B00A95F73 /* Main.storyboard */,
 				F2D506361FC3501B00A95F73 /* Assets.xcassets */,
 				F2D506381FC3501B00A95F73 /* LaunchScreen.storyboard */,
@@ -466,6 +469,7 @@
 				F2D5065E1FC37CFB00A95F73 /* NowPlayingViewController.swift in Sources */,
 				F2D506301FC3501B00A95F73 /* AppDelegate.swift in Sources */,
 				F2D506601FC3972E00A95F73 /* MovieCell.swift in Sources */,
+				F2F2FDC71FC7E2D000B6DBB9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

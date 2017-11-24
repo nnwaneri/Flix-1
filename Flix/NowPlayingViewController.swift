@@ -37,6 +37,9 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
    
         tableView.insertSubview(refreshControl, at: 0)
         
+        
+        
+        
     }
     
     @objc func didPullToRefresh(_ refreshControl: UIRefreshControl) {
@@ -81,6 +84,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         let overview = movie["overview"] as! String
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath) as! MovieCell
+        cell.selectionStyle = .none
         cell.titleLabel.text = title
         cell.overviewLabel.text = overview
         
@@ -91,10 +95,19 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         
         cell.posterImageView.layer.cornerRadius = 10.0
         cell.posterImageView.clipsToBounds = true
-        
+        cell.overviewLabel.sizeToFit()
+       
         return cell
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell) {
+            let movie = movies[indexPath.row]
+            let detailViewController = segue.destination as! DetailViewController
+            detailViewController.movie = movie
+        }
+    }
     
     
 
