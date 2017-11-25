@@ -22,17 +22,17 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        
         activityIndicator.startAnimating()
         
         tableView.dataSource = self
         self.tableView.rowHeight = 170.0
         
-        
         fetchMovieData()
         
         refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(NowPlayingViewController.didPullToRefresh(_:)), for: .valueChanged)
-     
         refreshControl.attributedTitle = NSAttributedString(string: "Fetching Movies")
    
         tableView.insertSubview(refreshControl, at: 0)
@@ -74,10 +74,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         return movies.count
     }
     
-
-
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         
         let movie = movies[indexPath.row]
         let title = movie["title"] as! String

@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  DetailSuperHeroViewController.swift
 //  Flix
 //
 //  Created by Harold  on 11/24/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailSuperHeroViewController: UIViewController {
 
     @IBOutlet weak var backDropImageView: UIImageView!
     @IBOutlet weak var posterImageView: UIImageView!
@@ -23,9 +23,8 @@ class DetailViewController: UIViewController {
         
         posterImageView.layer.cornerRadius = 10.0
         posterImageView.layer.borderWidth = 2
-        self.navigationItem.title = "Movie Detail"
         
-
+        self.navigationItem.title = "Movie Detail"
         if let movie = movie {
             titleLabel.text = movie["title"] as? String
             releaseDateLabel.text = movie["release_date"] as? String
@@ -41,11 +40,12 @@ class DetailViewController: UIViewController {
             posterImageView.af_setImage(withURL: posterPathUrl)
         }
     }
-
+    
     
     override func viewWillLayoutSubviews() {
         overviewLabel.sizeToFit()
     }
+
 
     
 
