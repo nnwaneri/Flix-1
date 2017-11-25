@@ -14,6 +14,14 @@ The following **required** user stories are complete:
 - [X] User can scroll through a list of movies currently playing in theaters from The Movie DB API 
 - [x] User can "Pull to refresh" the movie list
 - [x] User sees a loading state while waiting for the movies to load
+- [x] User can tap a cell to see a detail view (+5pts)
+- [x] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView (+5pts)
+
+The following **optional** features are implemented:
+
+- [x] User can tap a poster in the collection view to see a detail screen of that movie (+3pts)
+- [x] Customize the navigation bar (+1pt)
+
 
 
 
