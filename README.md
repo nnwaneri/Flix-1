@@ -9,17 +9,19 @@ Time spent: 6 hours spent in total
 
 The following **required** user stories are complete:
 
-<<<<<<< HEAD
-- [x] User sees app icon in home screen and styled launch screen (+1pt)
-- [X] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
-- [x] User can "Pull to refresh" the movie list (+2pt)
-- [x] User sees a loading state while waiting for the movies to load (+2pt)
-=======
+
 - [x] User sees app icon in home screen and styled launch screen 
 - [X] User can scroll through a list of movies currently playing in theaters from The Movie DB API 
 - [x] User can "Pull to refresh" the movie list
 - [x] User sees a loading state while waiting for the movies to load
->>>>>>> f922b6e113f0b278ca920e3745a44927a3e33bcb
+- [x] User can tap a cell to see a detail view (+5pts)
+- [x] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView (+5pts)
+
+The following **optional** features are implemented:
+
+- [x] User can tap a poster in the collection view to see a detail screen of that movie (+3pts)
+- [x] Customize the navigation bar (+1pt)
+
 
 
 
@@ -28,7 +30,7 @@ The following **required** user stories are complete:
 Here's a walkthrough of implemented user stories:
 
 
-<img src="https://firebasestorage.googleapis.com/v0/b/datasto-61f2f.appspot.com/o/FlixGif.gif?alt=media&token=57616083-0a50-43cc-a265-cb1ff579d6db" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="https://firebasestorage.googleapis.com/v0/b/datasto-61f2f.appspot.com/o/FlixGif2.gif?alt=media&token=b3ed84c8-db8b-45b8-81d0-8f7dfd744f68" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## License
