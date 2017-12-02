@@ -13,6 +13,7 @@
 		F28152F81FC8D250005DA127 /* SuperHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28152F71FC8D250005DA127 /* SuperHeroViewController.swift */; };
 		F28152FA1FC8D263005DA127 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28152F91FC8D263005DA127 /* PosterCell.swift */; };
 		F28152FC1FC8E953005DA127 /* DetailSuperHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28152FB1FC8E953005DA127 /* DetailSuperHeroViewController.swift */; };
+		F28152FE1FC90395005DA127 /* SHWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28152FD1FC90395005DA127 /* SHWebViewController.swift */; };
 		F2D506301FC3501B00A95F73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5062F1FC3501B00A95F73 /* AppDelegate.swift */; };
 		F2D506351FC3501B00A95F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D506331FC3501B00A95F73 /* Main.storyboard */; };
 		F2D506371FC3501B00A95F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D506361FC3501B00A95F73 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		F28152F71FC8D250005DA127 /* SuperHeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViewController.swift; sourceTree = "<group>"; };
 		F28152F91FC8D263005DA127 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
 		F28152FB1FC8E953005DA127 /* DetailSuperHeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSuperHeroViewController.swift; sourceTree = "<group>"; };
+		F28152FD1FC90395005DA127 /* SHWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHWebViewController.swift; sourceTree = "<group>"; };
 		F2D5062C1FC3501B00A95F73 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D5062F1FC3501B00A95F73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2D506341FC3501B00A95F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				F2D5065F1FC3972E00A95F73 /* MovieCell.swift */,
 				F28152F71FC8D250005DA127 /* SuperHeroViewController.swift */,
 				F28152F91FC8D263005DA127 /* PosterCell.swift */,
+				F28152FD1FC90395005DA127 /* SHWebViewController.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 				F2D506301FC3501B00A95F73 /* AppDelegate.swift in Sources */,
 				F28152FA1FC8D263005DA127 /* PosterCell.swift in Sources */,
 				F28152F81FC8D250005DA127 /* SuperHeroViewController.swift in Sources */,
+				F28152FE1FC90395005DA127 /* SHWebViewController.swift in Sources */,
 				F2D506601FC3972E00A95F73 /* MovieCell.swift in Sources */,
 				F2F2FDC71FC7E2D000B6DBB9 /* DetailViewController.swift in Sources */,
 				F28152FC1FC8E953005DA127 /* DetailSuperHeroViewController.swift in Sources */,
@@ -651,7 +655,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D94SFQFGHY;
 				INFOPLIST_FILE = Flix/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devroldy.Flix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -668,7 +672,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D94SFQFGHY;
 				INFOPLIST_FILE = Flix/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devroldy.Flix;
 				PRODUCT_NAME = "$(TARGET_NAME)";

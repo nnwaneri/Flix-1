@@ -92,8 +92,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         
         cell.posterImageView.layer.cornerRadius = 10.0
         cell.posterImageView.clipsToBounds = true
-        cell.overviewLabel.sizeToFit()
-       
+        
         return cell
     }
 

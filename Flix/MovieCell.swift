@@ -15,12 +15,17 @@ class MovieCell: UITableViewCell {
     @IBOutlet weak var overviewLabel: UILabel!
     @IBOutlet weak var posterImageView: UIImageView!
     
-   
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        overviewLabel.sizeToFit()
+       
+    }
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
   
-       
+     
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
