@@ -1,26 +1,26 @@
-# Flix
+# Lab 1 - *Flix*
 
+**Flix** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Flix is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
-
-Time spent: 6 hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
+- The following screens use AutoLayout to adapt to various orientations and screen sizes
+   - [x] Movie feed view (+3pt)
+   - [x] Detail view (+2pt)
 
-- [x] User sees app icon in home screen and styled launch screen 
-- [X] User can scroll through a list of movies currently playing in theaters from The Movie DB API 
-- [x] User can "Pull to refresh" the movie list
-- [x] User sees a loading state while waiting for the movies to load
-- [x] User can tap a cell to see a detail view (+5pts)
-- [x] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView (+5pts)
+The following **optional** user stories are implemented:
 
-The following **optional** features are implemented:
+- [ ] Dynamic Height Cells (+1)
+- [x] Collection View AutoLayout (+2)
 
-- [x] User can tap a poster in the collection view to see a detail screen of that movie (+3pts)
-- [x] Customize the navigation bar (+1pt)
+The following **additional** user stories are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
+
 
 
 
